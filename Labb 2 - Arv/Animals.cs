@@ -14,27 +14,6 @@ namespace Labb_2___Arv
         public float _Hight;
         public string _Sound;
 
-
-        //public Animals(string Name, string Art, int Age, int legs, float Hight, string Sound)
-        //{
-        //    _Name = Name;
-        //    _Art = Art;
-        //    _Age = Age;
-        //    _NumberOfLegs = legs;
-        //    _Hight = Hight;
-        //    _Sound = Sound;
-        //}
-        //public Animals() 
-        //{
-        //    _Name = "No name";
-        //    _Art = "No specie";
-        //    _Age = 0;
-        //    _NumberOfLegs = 0;
-        //    _Hight = 0;
-        //    _Sound = "No sound";
-        //}
-
-
         public void MakeSound()
         {
             Console.WriteLine(_Name +" sounds like "+_Sound);
@@ -42,7 +21,7 @@ namespace Labb_2___Arv
 
         public void Move()
         {
-            Console.WriteLine("Walk");
+            Console.WriteLine("Animal is moving");
         }
         public void Eat()
         {
